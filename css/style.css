@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background-color: rgb(139, 221, 15);
+    color: black;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    margin: 20px 0;
+}
+
+nav .left{
+    width: 200px;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 60px;
+}
+
+nav .left span{
+    font-family: "Russo One", sans-serif;
+    font-size: 1.2rem;
+}
+
+nav .left img{
+    width: 37%;
+    height: 95%;
+    border: 5px solid rgb(24, 150, 219);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+nav .left img:hover{
+    border: 5px solid rgb(6, 118, 245);
+}
+
+
+nav .right {
+    display: flex;
+}
+
+nav .right ul{
+    display: flex;
+    justify-content: center;
+    margin:5px 20px;
+}
+
+nav .right ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav .right ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(64, 64, 78);
+}
+
+nav .right button{
+    margin: 0px 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    
+}
+
+nav .right button:hover{
+    background-color: beige;
+    border-radius: 5px;
+}
+
+nav .right #app-download-btn span{
+    margin: 0 5px;
+}
+
+
+#home {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#home .left-intro{
+    margin: 100px 0;
+    width: 26vw;
+}
+
+#home .left-intro span{
+    font-family: "Russo One", sans-serif;;
+    font-size: 4rem;
+}
+
+#home .left-intro .blue{
+    color: rgb(54, 54, 162);
+}
+
+#home .left-intro .itallic{
+    font-style: italic;
+    font-family: "Poppins", serif;
+}
+
+#home .left-intro p{
+    font-size: 1.1rem;
+    font-family: "Poppins", serif;
+}
+
+
+main .box{
+    margin: auto;
+    max-width: 78vw;
+    height: 7vw;
+    border-radius: 15px;
+    background-color: rgb(203, 207, 207);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+main .box i{
+    margin: 1.7rem;
+    
+}
+
+main .box .track-search{
+    width: 100%;
+    background-color: rgb(203, 207, 207);
+    color: black;
+    font-family: "Poppins", serif;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+main .box button{
+    margin: 0px 25px;
+    padding: 5px 15px;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+main .box button:hover{
+    background-color: beige;
+    border-radius: 5px;
+}
+
+
+
+
+
+
