@@ -6,6 +6,7 @@
     <title>Product LandingPage</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
@@ -17,6 +18,10 @@
             <div class="left">
                 <img src="/images/demo logo.png" alt="logo">
                 <span>Code Gang</span>
+            </div>
+
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
             </div>
 
             <div class="right">
@@ -55,19 +60,6 @@
             
         </section>
 
-        <!-- <div class="box">
-            <div class="track-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-
-                <span>Track your</span>
-                
-            </div>
-
-            <div class="track-btn">
-                <button>Track my parcel</button>
-            </div>
-            
-        </div> -->
 
         <div class="box">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -82,6 +74,8 @@
 
     </main>
 
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
